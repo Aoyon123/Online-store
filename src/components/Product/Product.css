@@ -1,0 +1,10 @@
+.product {
+  display: flex;
+  border-bottom: 3px solid black;
+  margin-right: 15px;
+}
+
+.product-name {
+  color: blueviolet;
+  font-weight: 400;
+}
