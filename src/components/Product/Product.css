@@ -2,9 +2,19 @@
   display: flex;
   border-bottom: 3px solid black;
   margin-right: 15px;
+  padding-bottom: 5px;
 }
 
 .product-name {
   color: blueviolet;
   font-weight: 400;
+}
+
+.btn-regular {
+  background-color: goldenrod;
+  width: 150px;
+  height: 25px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  cursor: pointer;
 }
