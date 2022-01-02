@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Cart from "../Cart/Cart";
 import Product from "../Product/Product";
+import {} from '../../utilities/fakedb'
 import "./Shop.css";
 
 const Shop = () => {
@@ -17,6 +18,7 @@ const Shop = () => {
     //console.log(product);
     const newCart = [...cart, product];
     setCart(newCart);
+      
   };
 
   return (
@@ -31,7 +33,7 @@ const Shop = () => {
         ))}
       </div>
       <div className="cart-container">
-        <Cart></Cart>
+        <Cart cart={cart}></Cart>
       </div>
     </div>
   );
